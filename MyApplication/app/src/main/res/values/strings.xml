@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Planner</string>
+    <string name="menu_delete">Delete</string>
+    <string name="belumdipilih">Kontak Belum di Pilih</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="intro">Contoh Aplikasi SMS Sederhana by herupurwito.wordpress.com</string>
+    <string name="buatpesan">Buat Pesan</string>
+    <string name="pesanmasuk">Pesan Masuk</string>
+    <string name="pesankeluar">Pesan Keluar</string>
+    <string name="keluar">Keluar</string>
+    <string name="hapuspesan_dialog">Apakah Anda Yakin Akan Menghapus SMS ini?</string>
+    <string name="pesanhint">Ketikkan Pesan Anda disini</string>
+    <string name="datakontak">Data Kontak</string>
+    <string name="pesan">Pesan</string>
+    <string name="teruskan">Teruskan</string>
+    <string name="hapuspesan">Hapus Pesan</string>
+    <string name="confirmation">Konfirmasi</string>
+</resources>

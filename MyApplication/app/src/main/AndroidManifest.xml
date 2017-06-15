@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.Planner">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Planner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme= "@style/AppTheme">
+
+        <activity android:name="com.example.asus.Planner.Activity.MainActivity"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.asus.Planner.Activity.ReminderActivity"></activity>
+        <activity android:name="com.example.asus.Planner.Activity.MessageActivity"></activity>
+        <activity android:name="com.example.asus.Planner.Activity.NoteActivity"></activity>
+        <activity android:name="com.example.asus.Planner.Activity.NoteEditActivity"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="com.example.asus.Planner.Fragment.MakeMessage"
+            android:label="@string/app_name"
+            android:screenOrientation="userPortrait">
+        </activity>
+        <activity
+            android:name="com.example.asus.Planner.Fragment.ViewMessage"
+            android:label="@string/app_name"
+            android:screenOrientation="userPortrait">
+
+        </activity>
+        <activity
+            android:name="com.example.asus.Planner.Fragment.DataMessage"
+            android:label="@string/app_name"
+            android:screenOrientation="userPortrait">
+        </activity>
+
+        <receiver android:name="com.example.asus.Planner.Adapter.AlarmReceiver"
+            android:process=":remote"/>
+
+    </application>
+</manifest>

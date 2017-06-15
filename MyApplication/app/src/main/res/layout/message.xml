@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MessageActivity" >
+
+    <Button
+        android:id="@+id/tombolbuatpesan"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Create Message" />
+
+    <Button
+        android:id="@+id/tombolpesanmasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tombolpesankeluar"
+        android:layout_below="@+id/tombolbuatpesan"
+        android:layout_marginTop="31dp"
+        android:text="Inbox" />
+
+    <Button
+        android:id="@+id/tombolexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tombolpesankeluar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/tombolpesankeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tombolpesanmasuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Outbox" />
+
+
+</RelativeLayout>
